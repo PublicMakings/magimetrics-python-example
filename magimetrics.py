@@ -1,8 +1,8 @@
 import webapp2
 import json
 
-# api_key = "CHOOSE-A-RANDOM-KEY-AND-PLACE-IT-HERE"
-api_key = "1234"
+api_key = "CHOOSE-A-RANDOM-KEY-AND-PLACE-IT-HERE"
+
 
 def api_key_required(handler):
     def check_api_key(self, *args, **kwargs):
